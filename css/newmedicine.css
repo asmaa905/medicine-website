@@ -1,0 +1,350 @@
+* {box-sizing:border-box;margin: 0;padding: 0;}
+body{background: #FFF;}
+.container{
+	
+	margin:auto;
+	width:1170px;
+}
+
+.header .slider{
+    margin:auto;
+	background-color:#888;
+	height: 600px;
+	overflow-y: visible;
+	
+	
+}
+.header .slider section{height: 100%;}
+.header .slider section .mySlides{width: 100%;
+	height:100%;
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-Moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	}
+	.header .mySlides button{height: 100px;
+	border-radius: 5px;margin-top:-5px;
+	background:rgb(248,16,56);border-bottom: #555 2px;padding-left:2px;
+	padding-right:2px;width:70px }
+	
+	.header .mySlides button a{text-decoration: none;color:rgb(228,163,68);}
+	.header .mySlides  :after{
+	content: "";
+	border-bottom: 20px solid  rgba(0,0,0,0.5);;
+	border-right: 20px solid transparent;
+	border-left: 20px solid transparent;
+	position: relative;
+	bottom: -714.5px;
+	left: -1100px;
+}
+.header  h2{font-size: 30px;font-family: tahoma;color:#909090;font-family: 'Indie Flower', cursive;
+margin-left:20px;margin-right:10px;width:350px;height: 115px;
+	padding: 5px 0;
+}
+
+.header .navbar h2 .ar{color:rgb(171,129,136);}
+
+.header .navbar{
+	overflow: hidden;
+	margin:auto ;
+        width:1000px;
+        border-left: 2px  solid #555;
+        border-right: 2px  solid #555;
+	
+}
+.header .navbar h2{
+	float: left;
+	
+}
+.header .navbar h2 span{
+	color:#888;
+	
+	
+}
+.header .navbar ul{
+	list-style: none;
+	padding-right:10px;
+	float: right;
+	overflow: hidden;
+	
+	
+}
+
+.header .navbar ul li{
+	float: right;
+	padding: 10px;
+	background:#ddd;
+	border:#ddd 1px ;
+	box-shadow: 2px 2px #ddd;
+	border-radius: 3px;
+	margin:auto ;
+	margin-left: 10px;
+	width:100px;
+	text-align: center;
+	
+}
+
+.nav2{background-color: ;}
+	.nav2 >div{
+		overflow: hidden;
+	background-color: ;
+	color:#071212;margin:auto ;
+         width:1000px;
+         }
+	
+   .nav2 >div ul{
+	list-style: none;
+	padding-right:10px;
+	float: right;
+	overflow: hidden;
+   }
+   .nav2 >div ul li{
+	float: right;
+	padding: 10px;
+
+	margin:auto ;
+	margin-left: 10px;
+	width:100px;
+	text-align: center;
+	font-weight: bold;
+   }
+   .nav2 >div ul li a{text-decoration: none;}
+.place {overflow: hidden;padding-top:30px;padding-bottom:30px;
+	background: #fff;height: 250px;
+	
+	text-align: center;} 
+.nav2 >div ul li .active,.nav2 >div ul li a:hover{color:#fff;}
+.nav2 >div ul li a:visited{color:rgb(243,82,105);}
+	.place .facepage{
+		float: left;
+width:30.33%;
+		
+	}
+.group {overflow-x: hidden;background:#F2F2F2;padding-bottom: 5px;padding-top: 5px;background:#fff;}
+.group .features,.group .aboutme,.group .profiles{background:#fff;height: 1400px;
+ }
+.group .aboutme{width:30%;height: 1150px;float: right;border-radius:10px;background: rgb(228,133,68);overflow-y: scroll;background: #FFF}
+.group .profiles{width:25%;height: 500px;border-radius:50px;overflow-y: hidden;background: rgb(228,133,68);background: #FFF}
+.group .features{padding:2%;width:40%;margin-left:1%;height: 1150px;background:rgb(228,133,68);background: #FFF;
+border-radius:10px}
+.group .features .hobbies{direction: rtl;}
+.features .hobbies h2{
+		text-transform: uppercase;
+		color:#444;
+	}.features .hobbies p{
+		
+		color:#888;
+	}
+
+.features{
+		
+	
+		padding-bottom: 40px;
+		padding-top: 50px;
+	background:#F2F2F2;
+	width: 30%;
+	height: 1500px;
+	float: left;
+	
+	
+	
+	}
+	.features .hobbies{
+	
+	}
+	
+	.profiles{width: 30%;float: left;}
+	.group .profiles .hobbies a{text-decoration: none;}
+}
+.profiles.image img{min-width: 100%; }
+.profiles.info{
+	float: right;
+	width: 100%;}
+	.profiles.info h2{margin:70px 0 20px 40px; color:#555}
+	.profiles .info >p{margin:0px 0 10px 40px}
+	.profiles.info >p:last-of-type{margin-top:30px }
+	.profiles .info p{line-height:1.5;
+	color:#666}
+	.profiles .info .hobbies h3{color:#555;}
+.profiles .info .hobbies
+		{margin:40px 0px 0px 40px;
+		overflow: hidden;
+		
+		}
+.profiles .info .hobbies .content
+			{
+			
+			overflow: hidden;
+			min-height:  100px;
+			
+			}
+			
+			.profiles .info .hobbies .content img
+			{max-width:100%;
+			margin:20px 10px 0 0;	
+				
+			}
+			.aboutme .info .hobbies .content .text
+			{
+			float:right ;
+			
+			
+			}
+.aboutme .image img{min-width: 100%; }
+.aboutme .info{
+	
+	width: 100%;}
+	.aboutme .info h2{margin:40px 0 20px 40px; color:#555}
+	.aboutme .info >p{margin:0px 0 10px 40px}
+	
+	.aboutme .info p{line-height:1.5;
+	color:#666}
+.aboutme .info .hobbies h3{color:#555;}
+.aboutme .info .hobbies
+		{margin:40px 0px 0px 40px;
+		
+		
+		}
+.aboutme .info .hobbies .content
+			{
+			
+			
+			min-height:  100px;
+			
+			}
+			
+.aboutme .info .hobbies .content img
+			{max-width:100%;
+			margin:20px 10px 0 0;	
+				
+			}
+.aboutme .info .hobbies button{background:rgb( 180,86,46);color:rgb(224,120,217);border: none}
+.Psychic_sound{direction: rtl;background-color: #fff}
+.Psychic_sound .article {
+	
+	
+	overflow: hidden;margin-left: 1%
+											
+}
+.Psychic_sound .article h3{
+	text-align: right;direction: rtl;
+	margin:5px auto;color:rgb(31,35,124);
+	border:1px;background: rgb(242,242,242);
+}
+.Psychic_sound .article .way{
+	overflow: hidden;
+    padding-left:2%;
+	border: 1px rgb(31,35,124) ;
+	float: right;
+	width: 30.33%
+}
+
+.Psychic_sound .article .way h5{color:rgb(31,35,124);}
+.Psychic_sound .article .way .icon{float:right;width: 25%;}
+.Psychic_sound .article .way .icon img{width:100px;height: 200px;}
+.Psychic_sound .article .way .text{width: 55%;float:left;}
+.Psychic_sound .article .way button{display: block; width:100%;margin-top: 20px;}
+.hidden .ffromaa{padding: 5%;width:76% ;margin:5%;
+border-radius: 5px;border:2px solid #222;
+box-shadow: 2px 2px #ddd;
+height: 400px}
+.testemonails{
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-align: center;
+	background: #F2F2F2;
+	direction: rtl;
+	background: #FFF
+}
+.testemonails .wonds{
+	width: 100%
+}
+.testemonails .wonds q{
+	color:#666;
+	
+	font:italic bold 18px/1.8 tahoma,arial;
+}
+.testemonails .wonds h3{
+	color:#777;
+	
+}
+.testemonails div  ul{
+	
+	cursor: default;
+	
+	padding-left: 0;
+	list-style: none;
+	text-align: center;margin-top:20px;
+}
+.testemonails div li{
+	 display: inline-block;border:2px solid #2DCC70;width: 20px;height: 20px;
+}
+.testemonails .active ,.testemonails li:hover{background: #2DCC70;cursor: pointer}
+.clear{
+	clear: both
+}
+.website{
+	padding-top:50px;
+	padding-bottom: 70px;
+	text-align: center;background: #DDD;width: 100%;background: #FFF
+}
+.website h2{color:#777;}
+
+.website .sites{
+	overflow: hidden;
+}
+.website .sites .start{
+	
+	width:100%;
+	margin-bottom: 10px;
+	
+}
+.website .sites .start a  {
+width: 100%;}
+.website .sites .start a img {
+width: 92%;
+	margin:10px;background-size: 100%;
+}
+.contect{
+	background: #24302E;
+	overflow: hidden;
+	padding-top: 70px ;
+	padding-bottom: 50px;background: #FFF
+}
+.contect h2{color: #D106DA; margin-left: 40px}
+.contect p{color:#485452}
+.contect .info{
+	width:50%;
+    float:left;
+}
+.contect .form{
+	width:45%;margin-left: 5%;
+    float:left;
+	
+}
+.contect p strong{color:#D106DA}
+.contect form input[type="text"]{
+	background: #4B5557;border: 0;width: 80%;padding: 10px;color: #FFF;height: 40PX;display: block;background:rgb(25,30,34);
+}
+.contect form textarea{
+	background: #4B5557;border: 0;width: 80%;padding: 10px;color: #FFF;height: 300PX;display: block;
+background:rgb(25,30,34);
+
+}
+.contect .form label{color:#D106DA;margin-bottom: 10px;display: block;}
+.contect form input[type="submit"]{
+	background: #191E22;border: 0;padding:10px 20px;color: #D106DA;height: 50PX;display: block;margin-top: 20px;}
+.footer{
+	background: #15191A;
+	color:#485452;
+	padding:20px 0;
+	text-align: center;
+	  }
+.footer ul{list-style: none;margin: 10px 0 0 ;}
+.footer ul li{display: inline-block;}
+.footer ul li img{
+	width: 34px
+}
+
+	
